@@ -9,18 +9,20 @@
   <null name="startup_services"/>
   <null name="shutdown_services"/>
   <null name="replication_services"/>
-  <null name="requires"/>
+  <record name="requires" javaclass="com.wm.util.Values">
+    <value name="UpperFSPackage_EntGithub">1.0</value>
+  </record>
   <null name="lazy_load_node_types"/>
   <null name="listACL"/>
   <value name="webappLoad">yes</value>
   <value name="reloadWithDependentPackage">yes</value>
-  <value name="build">2</value>
+  <value name="build">3</value>
   <null name="description"/>
   <value name="created_date">15-04-2026 10:48:53 GMT</value>
   <null name="extendedProperties"/>
   <null name="target_server_version"/>
   <value name="isProjectPackage">true</value>
-  <value name="lastUpdated">2026-04-15T10:48:55.883951418Z</value>
+  <value name="lastUpdated">2026-04-15T10:49:25.989369382Z</value>
   <value name="wmProjectId">flb16dff572f9c4712abfadabc48a6db49</value>
   <value name="creator">Arti Khare</value>
 </Values>
